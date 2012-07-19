@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+* {
+	font-family:"나눔명조", serif;
+}
+d|entry {
+	font-size: 110%;
+}
+
+h1	{
+	font-size: 150%;
+}
+
+h3	{
+	font-size: 100%;
+}

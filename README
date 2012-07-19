@@ -3,7 +3,7 @@
 1. Prerequisitves
         1. MacOSX
         2. Xcode (from MacAppStore)
-        3. 'Dictionary Development Kit' and 'Command Line Tools'
+        3. Dictionary Development Kit & Command Line Tools
                 (from [Xcode]-[Open Developer Tool]-[More Developer Tools...])
 
 2. Build Steps

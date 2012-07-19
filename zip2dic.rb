@@ -22,10 +22,6 @@ File.open_and_process(ARGV[0],'r') do |file|
 			puts "<d:entry d:title='#{index}' id='#{id}' from=''>"
 			index.split(' ').each{ |x|
 				puts "\t<d:index d:value='#{x}'/>"
-#				ruby 한글 매칭이 잘 동작하지 않아 포기
-#				if x =~/(.*)[시군구읍면동리]$/ then   
-#					puts "\t<d:index d:value='#{$1[]}'/>"
-#				end
 			}
 			puts "<section><b>#{zip}</b> #{index}</section>"
 			puts "</d:entry>"

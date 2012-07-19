@@ -1,0 +1,15 @@
+## Build and Install Steps.
+1. Prerequisitves
+        1. MacOSX
+        2. Xcode from MacAppStore
+        3. Install Dictionary Development Kit and Command Line Tools
+           from [Xcode]-[Open Developer Tool]-[More Developer Tools...]
+
+2. Build Steps
+        1. ruby zip2dic.rb zipcode_20120515.txt > MyDictionary.xml
+        2. make clean
+        3. make
+        4. make install
+
+3. See More(in Korean)
+        http://hanury.net/wp/archives/3642
